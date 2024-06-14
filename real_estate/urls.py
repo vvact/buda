@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path("supersecret/", admin.site.urls),
+    path("buda/", admin.site.urls),
     # path("api/v1/auth/", include("djoser.urls")),
     # path("api/v1/auth/", include("djoser.urls.jwt")),
     # path("api/v1/profile/", include("apps.profiles.urls")),
@@ -14,6 +14,6 @@ urlpatterns = [
 ]
 
 
-admin.site.site_header = "Real Estate Admin"
-admin.site.site_title = "Real Estate Admin Portal"
-admin.site.index_title = "Welcome to the Real Estate Portal"
+admin.site.site_header = "Rentify Estate Admin"
+admin.site.site_title = "Rentify Estate Admin Portal"
+admin.site.index_title = "Welcome to the Rentify Estate Portal"
